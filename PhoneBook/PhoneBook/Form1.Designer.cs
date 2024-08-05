@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             grbSavePerson = new GroupBox();
-            button1 = new Button();
             btnSave = new Button();
             txtMail = new TextBox();
             txtPhone = new TextBox();
@@ -44,7 +43,6 @@
             // 
             // grbSavePerson
             // 
-            grbSavePerson.Controls.Add(button1);
             grbSavePerson.Controls.Add(btnSave);
             grbSavePerson.Controls.Add(txtMail);
             grbSavePerson.Controls.Add(txtPhone);
@@ -55,26 +53,20 @@
             grbSavePerson.Controls.Add(label2);
             grbSavePerson.Controls.Add(label1);
             grbSavePerson.Font = new Font("Segoe UI", 20F);
-            grbSavePerson.Location = new Point(12, 12);
+            grbSavePerson.Location = new Point(14, 16);
+            grbSavePerson.Margin = new Padding(3, 4, 3, 4);
             grbSavePerson.Name = "grbSavePerson";
-            grbSavePerson.Size = new Size(436, 426);
+            grbSavePerson.Padding = new Padding(3, 4, 3, 4);
+            grbSavePerson.Size = new Size(498, 568);
             grbSavePerson.TabIndex = 0;
             grbSavePerson.TabStop = false;
             // 
-            // button1
-            // 
-            button1.Location = new Point(6, 374);
-            button1.Name = "button1";
-            button1.Size = new Size(82, 46);
-            button1.TabIndex = 6;
-            button1.Text = "blue";
-            button1.UseVisualStyleBackColor = true;
-
             // btnSave
             // 
-            btnSave.Location = new Point(109, 374);
+            btnSave.Location = new Point(125, 499);
+            btnSave.Margin = new Padding(3, 4, 3, 4);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(245, 46);
+            btnSave.Size = new Size(280, 61);
             btnSave.TabIndex = 5;
             btnSave.Text = "Kaydet";
             btnSave.UseVisualStyleBackColor = true;
@@ -82,75 +74,81 @@
             // 
             // txtMail
             // 
-            txtMail.Location = new Point(109, 306);
+            txtMail.Location = new Point(125, 408);
+            txtMail.Margin = new Padding(3, 4, 3, 4);
             txtMail.Name = "txtMail";
-            txtMail.Size = new Size(245, 43);
+            txtMail.Size = new Size(279, 52);
             txtMail.TabIndex = 4;
             // 
             // txtPhone
             // 
-            txtPhone.Location = new Point(109, 232);
+            txtPhone.Location = new Point(125, 309);
+            txtPhone.Margin = new Padding(3, 4, 3, 4);
             txtPhone.Name = "txtPhone";
-            txtPhone.Size = new Size(245, 43);
+            txtPhone.Size = new Size(279, 52);
             txtPhone.TabIndex = 3;
             // 
             // txtLastName
             // 
-            txtLastName.Location = new Point(109, 158);
+            txtLastName.Location = new Point(125, 211);
+            txtLastName.Margin = new Padding(3, 4, 3, 4);
             txtLastName.Name = "txtLastName";
-            txtLastName.Size = new Size(245, 43);
+            txtLastName.Size = new Size(279, 52);
             txtLastName.TabIndex = 2;
             // 
             // txtFirstName
             // 
-            txtFirstName.Location = new Point(110, 84);
+            txtFirstName.Location = new Point(126, 112);
+            txtFirstName.Margin = new Padding(3, 4, 3, 4);
             txtFirstName.Name = "txtFirstName";
-            txtFirstName.Size = new Size(245, 43);
+            txtFirstName.Size = new Size(279, 52);
             txtFirstName.TabIndex = 1;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(6, 309);
+            label4.Location = new Point(7, 412);
             label4.Name = "label4";
-            label4.Size = new Size(82, 37);
+            label4.Size = new Size(99, 46);
             label4.TabIndex = 0;
             label4.Text = "Email";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(6, 232);
+            label3.Location = new Point(7, 309);
             label3.Name = "label3";
-            label3.Size = new Size(102, 37);
+            label3.Size = new Size(129, 46);
             label3.TabIndex = 0;
             label3.Text = "Telefon";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(6, 164);
+            label2.Location = new Point(7, 219);
             label2.Name = "label2";
-            label2.Size = new Size(97, 37);
+            label2.Size = new Size(119, 46);
             label2.TabIndex = 0;
             label2.Text = "Soyadi";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(6, 85);
+            label1.Location = new Point(7, 113);
             label1.Name = "label1";
-            label1.Size = new Size(57, 37);
+            label1.Size = new Size(70, 46);
             label1.TabIndex = 0;
             label1.Text = "Adi";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(468, 450);
+            ClientSize = new Size(535, 600);
             Controls.Add(grbSavePerson);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
+            Padding = new Padding(23, 80, 23, 27);
             Text = "Form1";
             FormClosing += Form1_FormClosing;
             Load += Form1_Load;
@@ -171,6 +169,5 @@
         private Label label4;
         private Label label3;
         private Label label2;
-        private Button button1;
     }
 }

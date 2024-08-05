@@ -54,8 +54,4 @@
     </PackageReference>
 </ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Sql\" />
-	</ItemGroup>
-
 </Project>
