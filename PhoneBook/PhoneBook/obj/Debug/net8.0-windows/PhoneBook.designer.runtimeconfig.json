@@ -12,10 +12,11 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\nazrinamai\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\nazrinamai\\.nuget\\packages"
+      "C:\\Users\\Lenovo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Lenovo\\.nuget\\packages"
     ],
     "configProperties": {
+      "System.Reflection.NullabilityInfoContext.IsSupported": true,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
