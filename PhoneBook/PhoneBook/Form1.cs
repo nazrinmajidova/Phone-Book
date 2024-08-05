@@ -30,7 +30,7 @@ namespace PhoneBook
             }
         }
 
-        string connection = Program.Configuration.GetConnectionString("default"); ;
+        string connection = Program.Configuration.GetConnectionString("default"); 
         PhoneBookContext context = new();
 
 
