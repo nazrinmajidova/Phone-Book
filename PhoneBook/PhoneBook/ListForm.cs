@@ -18,6 +18,8 @@ namespace PhoneBook
         public void Refresh()
         {
             lstPeople.Items.Clear();
+            context.Dispose();
+            context = new PhoneBookContext();
 
             var people = context.People.ToList();
 
